@@ -17,34 +17,73 @@
     padding: 5rem 2rem;
 }
 
+@media(min-width :320px){
+    .main-text{
+        width: 100%;
+        min-height: 400px;
+    }
+}
+
+@media(min-width :768px){
+    .main-text{
+        width: 100%;
+        min-height: 500px;
+    }
+}
+
+
 .main-title{
     padding-bottom: 3rem;
     text-transform: uppercase;
     color: #ef6d58;
+    font-weight: 700;
     font-size: 1rem;
-    font-weight: 500;
     font-family: Epilogue-bold;
 }
 
 .main-text h1{
     padding-bottom: 3rem;
-    font-size: 6rem;
+    font-size: 7rem;
     line-height: 1;
     font-family: Epilogue;
     font-weight: 500;
     color: #391400;
 }
 
+@media(min-width:320px){
+    .main-text h1{
+        font-size: 2.9rem;
+    }
+}
+
+@media(min-width:768px){
+    .main-text h1{
+        font-size: 6rem;
+    }
+}
+
 .c-text{
     text-decoration: underline;
     text-decoration-thickness: 0.3rem;
-    text-underline-offset: 0.9rem;
+    text-underline-offset: 0.5rem;
 }
 
 .main-para{
-    padding-bottom: 5rem;
-    font-size: 1.25rem;
+    padding-bottom: 7rem;
     color: #391400;
+}
+
+@media(min-width :320px){
+    .main-para{
+        font-size: 1.25rem;
+    }
+}
+
+@media(min-width :768px){
+    .main-para{
+        padding-bottom: 4rem;
+        font-size: 1.42rem;
+    }
 }
 
 .main-btn{
@@ -60,4 +99,16 @@
     line-height: 1;
     width: 20.125rem;
     padding: 0.9375rem 1.25rem;
+}
+
+@media(min-width :320px){
+    .main-btn{
+        width: 15rem;
+    }
+}
+
+@media(min-width :768px){
+    .main-btn{
+        width: 20rem;
+    }
 }
