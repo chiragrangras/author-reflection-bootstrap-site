@@ -159,69 +159,196 @@
   clip-path: polygon(100% 0, 100% 100%, 50% 92%, 0 100%, 0 0);
 }
 
-@media(min-width :320px){
-    .website-wrapper{
-        clip-path: polygon(100% 0, 100% 100%, 50% 98%, 0 100%, 0 0);
-    }
+@media (min-width: 320px) {
+  .website-wrapper {
+    clip-path: polygon(100% 0, 100% 100%, 50% 98%, 0 100%, 0 0);
+  }
 }
 
-.sub-title{
-    color: #ef6d58;
-    text-transform: uppercase;
+@media (min-width: 768px) {
+  .website-wrapper {
+    clip-path: polygon(100% 0, 100% 100%, 50% 96%, 0 100%, 0 0);
+  }
+}
+
+@media (min-width: 992px) {
+  .website-wrapper {
+    clip-path: polygon(100% 0, 100% 100%, 50% 95%, 0 100%, 0 0);
+  }
+}
+
+.sub-title {
+  color: #ef6d58;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  font-family: Epilogue;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 320px) {
+  .sub-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .sub-title {
+    font-size: 1.9rem;
+  }
+}
+
+.website-title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  font-family: Epilogue;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 320px) {
+  .website-title {
+    font-size: 2.6rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 992px) {
+  .website-title {
+    font-size: 3.9rem;
+    line-height: 1.2;
+  }
+}
+
+.section-body {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+  font-family: Epilogue;
+}
+
+@media (min-width: 320px) {
+  .section-body {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-body {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-body {
+    font-size: 1.9rem;
+  }
+}
+
+.website_signature {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.4;
+  font-family: Ephesis;
+  text-align: right;
+}
+
+@media (min-width: 320px) {
+  .website_signature {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .website_signature {
     font-size: 2rem;
-    font-weight: 700;
-    line-height: 1;
-    font-family: Epilogue;
-    padding-bottom: 2rem;
+  }
 }
 
-@media(min-width :320px){
-    .sub-title{
-        font-size: 1.3rem;
-    }
-}
-
-.website-title{
-    color: #fff;
+@media (min-width: 992px) {
+  .website_signature {
     font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1;
-    font-family: Epilogue;
-    padding-bottom: 3rem;
+  }
 }
 
-@media(min-width :320px){
-    .website-title{
-        font-size: 2.6rem;
-        line-height: 1.2;
-    }
+.section-header{
+  padding: 4rem 3rem 1rem 3rem;
+}
+
+.j-header{
+  padding-bottom: 3.12rem;
+  font-size: 2.62rem;
+  font-weight: 800;
+  line-height: 1.14;
+  font-family: Epilogue-bold;
+  text-transform: uppercase;
+  color: #391400;
+}
+
+.j-para{
+  font-size: 1.62rem;
+  font-weight: 400;
+  line-height: 1;
+  font-family: Epilogue;
+  color: #391400;
 }
 
 .section-body{
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: 500;
-    line-height: 1.4;
-    font-family: Epilogue;
+  padding-top: 2rem;
 }
 
-@media(min-width :320px){
-    .section-body{
-        font-size: 1.5rem;
-    }
+.card-1,.card-2,.card-3{
+  background-color: #f6f1db;
+  border-radius: 0.62rem;
+  width: 25rem;
+  height: auto;
+  padding: 2.5rem;
 }
 
-.website_signature{
-    color: #fff;
-    font-size: 2.5rem;
-    font-weight: 800;
-    line-height: 1.4;
-    font-family: Ephesis;
-    text-align: right;
+.card-img-1,.card-img-2,.card-img-3{
+  overflow: hidden;
+  border-radius: 0.62rem;
+  position: relative;
 }
 
-@media(min-width :320px){
-    .website_signature{
-        font-size: 1.5rem;
-    }
+.zoom-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card-img-1:hover .zoom-img {
+  transform: scale(1.1);
+}
+
+.card-content{
+  padding-top: 2rem;
+}
+
+.card-content h4{
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Epilogue-bold;
+  color: #391400;
+}
+
+.card-content p{
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Epilogue;
+  color: #391400;
+}
+
+.card-action a{
+  color: #cfb53b;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Epilogue;
 }
