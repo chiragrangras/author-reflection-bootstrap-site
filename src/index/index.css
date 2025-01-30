@@ -275,11 +275,19 @@
   }
 }
 
-.section-header{
-  padding: 4rem 3rem 1rem 3rem;
+@media (min-width: 320px) {
+  .section-header {
+    padding: 1rem 1rem;
+  }
 }
 
-.j-header{
+@media (min-width: 992px) {
+  .section-header {
+    padding: 4rem 2rem;
+  }
+}
+
+.j-header {
   padding-bottom: 3.12rem;
   font-size: 2.62rem;
   font-weight: 800;
@@ -289,7 +297,7 @@
   color: #391400;
 }
 
-.j-para{
+.j-para {
   font-size: 1.62rem;
   font-weight: 400;
   line-height: 1;
@@ -297,27 +305,62 @@
   color: #391400;
 }
 
-.section-body{
+.section-body {
   padding-top: 2rem;
 }
 
-.card-1,.card-3{
+.j-card {
+  gap: 2rem;
+}
+
+.card-1,
+.card-3 {
   background-color: #f6f1db;
   border-radius: 0.62rem;
   width: 25rem;
   height: auto;
-  padding: 2.5rem;
+  padding: 1.5rem 2rem;
 }
 
-.card-2{
+@media (min-width: 320px) {
+  .card-1,
+  .card-3 {
+    width: 18rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-1,
+  .card-3 {
+    width: 45rem;
+    padding: 2rem 1.5rem;
+  }
+}
+
+.card-2 {
   background-color: #f6f1db;
   border-radius: 0.62rem;
   width: 25rem;
   height: auto;
-  padding: 2.5rem;
+  padding: 1.5rem 2rem;
 }
 
-.card-wrapper{
+@media (min-width: 320px) {
+  .card-2 {
+    width: 18rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-2 {
+    width: 45rem;
+    padding: 2rem 1.5rem;
+  }
+}
+
+.card-wrapper {
   overflow: hidden;
   border-radius: 0.62rem;
   position: relative;
@@ -334,29 +377,35 @@
   transform: scale(1.1);
 }
 
-.card-content{
+.card-content {
   padding-top: 2rem;
 }
 
-.card-content h4{
+.card-content h4 {
   padding-bottom: 1rem;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 700;
   font-family: Epilogue-bold;
   color: #391400;
 }
 
-.card-content p{
-  font-size: 1rem;
+.card-content p {
+  font-size: 1.2rem;
   font-weight: 400;
+  line-height: 1.5;
   font-family: Epilogue;
   color: #391400;
+  padding-bottom: 2rem;
 }
 
-.card-action a{
+.card-action a {
   color: #cfb53b;
   font-size: 1.5rem;
   font-weight: 400;
   font-family: Epilogue;
+}
+
+.card-action a:hover {
+  color: #cfb53b;
 }
