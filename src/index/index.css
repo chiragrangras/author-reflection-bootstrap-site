@@ -283,7 +283,7 @@
 
 @media (min-width: 992px) {
   .section-header {
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
   }
 }
 
@@ -339,7 +339,7 @@
 }
 
 .card-2 {
-  background-color: #f6f1db;
+  background-color: #eee;
   border-radius: 0.62rem;
   width: 25rem;
   height: auto;
@@ -368,9 +368,32 @@
 
 .card-img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
+}
+
+@media (min-width: 320px) {
+  .card-img {
+    height: 10rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-img {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-img {
+    height: 10rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card-img {
+    height: 15rem;
+  }
 }
 
 .card-wrapper:hover .card-img {
@@ -400,6 +423,8 @@
 }
 
 .card-action a {
+  margin: 0rem;
+  padding: 0.5rem 1rem;
   color: #cfb53b;
   font-size: 1.5rem;
   font-weight: 400;
@@ -408,4 +433,40 @@
 
 .card-action a:hover {
   color: #cfb53b;
+}
+
+.signup {
+  margin-top: 3rem;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup svg {
+  margin: 1rem;
+}
+
+.signup p {
+  color: #391400;
+  margin: 0rem;
+  font-family: Epilogue;
+  font-size: 1.5rem;
+}
+
+.signup-btn {
+  margin: 2rem 2rem;
+  font-size: 2rem;
+  background-color: #e7c013;
+  color: #eee;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  /* background-color: #cfb53b;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .9375rem 1.25rem;
+  text-align: center; */
 }
