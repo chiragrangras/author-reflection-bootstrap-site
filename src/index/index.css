@@ -195,7 +195,7 @@
 
 @media (min-width: 992px) {
   .sub-title {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -205,7 +205,7 @@
   font-weight: 700;
   line-height: 1;
   font-family: Epilogue;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 @media (min-width: 320px) {
@@ -244,7 +244,7 @@
 
 @media (min-width: 992px) {
   .section-body {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -276,14 +276,14 @@
 }
 
 @media (min-width: 320px) {
-  .section-header {
+  .j-section-header {
     padding: 1rem 1rem;
   }
 }
 
 @media (min-width: 992px) {
-  .section-header {
-    padding: 2rem 2rem;
+  .j-section-header {
+    padding: 3rem 2rem;
   }
 }
 
@@ -305,7 +305,7 @@
   color: #391400;
 }
 
-.section-body {
+.j-section-body {
   padding-top: 2rem;
 }
 
@@ -439,8 +439,33 @@
   margin-top: 3rem;
   background-color: #eee;
   display: flex;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 320px) {
+  .signup {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .signup {
+    height: 23rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .signup {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .signup {
+    height: 6rem;
+  }
 }
 
 .signup svg {
@@ -454,19 +479,33 @@
   font-size: 1.5rem;
 }
 
+@media (min-width: 320px) {
+  .signup p {
+    padding: 1rem 1.5rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .signup p {
+    padding: 1rem 1.5rem;
+    font-size: 1.7rem;
+  }
+}
+
 .signup-btn {
-  margin: 2rem 2rem;
-  font-size: 2rem;
-  background-color: #e7c013;
-  color: #eee;
-  border: none;
-  border-radius: 10px;
-  font-weight: 800;
-  /* background-color: #cfb53b;
-  color: #fff;
+  margin: 0rem 2rem;
+  padding: 0.9375rem 1.25rem;
   font-size: 1.5rem;
+  border: none;
+  border-radius: 0.625rem;
+  font-weight: 800;
+  background-color: #cfb53b;
+  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-  padding: .9375rem 1.25rem;
-  text-align: center; */
+}
+
+.signup-btn:hover {
+  color: #fff;
 }
