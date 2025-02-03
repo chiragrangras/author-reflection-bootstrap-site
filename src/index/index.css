@@ -1,0 +1,511 @@
+@font-face {
+  font-family: Epilogue;
+  src: url(../common/font/Epilogue-Regular.ttf);
+}
+
+@font-face {
+  font-family: Epilogue-bold;
+  src: url(../common/font/Epilogue-Bold.ttf);
+}
+
+@font-face {
+  font-family: Ephesis;
+  src: url(../common/font/Ephesis-Regular.ttf);
+}
+
+#about {
+  background-color: #f6f1db;
+}
+
+.main-text {
+  padding: 5rem 2rem;
+}
+
+@media (min-width: 992px) {
+  .main-text {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-text {
+    padding: 2rem 3rem;
+  }
+}
+
+.main-title {
+  padding-bottom: 3rem;
+  text-transform: uppercase;
+  color: #ef6d58;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: Epilogue-bold;
+}
+
+.main-text h1 {
+  padding-bottom: 3rem;
+  font-size: 7rem;
+  line-height: 1;
+  font-family: Epilogue;
+  font-weight: 500;
+  color: #391400;
+}
+
+@media (min-width: 320px) {
+  .main-text h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-text h1 {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-text h1 {
+    padding-bottom: 2rem;
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-text h1 {
+    padding-bottom: 4rem;
+    font-size: 6rem;
+  }
+}
+
+.c-text {
+  text-decoration: underline;
+  text-decoration-thickness: 0.3rem;
+  text-underline-offset: 0.5rem;
+}
+
+.main-para {
+  padding-bottom: 7rem;
+  color: #391400;
+}
+
+@media (min-width: 320px) {
+  .main-para {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-para {
+    padding-bottom: 4rem;
+    font-size: 1.42rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-para {
+    padding-bottom: 3rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-para {
+    padding-bottom: 4rem;
+    font-size: 1.3rem;
+  }
+}
+
+.main-btn {
+  text-align: center;
+  background-color: #cfb53b;
+  color: #fff;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: Epilogue-Black;
+  font-weight: 700;
+  line-height: 1;
+  width: 20.125rem;
+  padding: 0.9375rem 1.25rem;
+}
+
+.main-btn:hover {
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 320px) {
+  .main-btn {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-btn {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-btn {
+    width: 18rem;
+  }
+}
+
+.website-wrapper {
+  padding: 3rem 2rem;
+  background-color: #28293e;
+  clip-path: polygon(100% 0, 100% 100%, 50% 92%, 0 100%, 0 0);
+}
+
+@media (min-width: 320px) {
+  .website-wrapper {
+    clip-path: polygon(100% 0, 100% 100%, 50% 98%, 0 100%, 0 0);
+  }
+}
+
+@media (min-width: 768px) {
+  .website-wrapper {
+    clip-path: polygon(100% 0, 100% 100%, 50% 96%, 0 100%, 0 0);
+  }
+}
+
+@media (min-width: 992px) {
+  .website-wrapper {
+    clip-path: polygon(100% 0, 100% 100%, 50% 95%, 0 100%, 0 0);
+  }
+}
+
+.sub-title {
+  color: #ef6d58;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  font-family: Epilogue;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 320px) {
+  .sub-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .sub-title {
+    font-size: 1.5rem;
+  }
+}
+
+.website-title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  font-family: Epilogue;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 320px) {
+  .website-title {
+    font-size: 2.6rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 992px) {
+  .website-title {
+    font-size: 3.9rem;
+    line-height: 1.2;
+  }
+}
+
+.section-body {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+  font-family: Epilogue;
+}
+
+@media (min-width: 320px) {
+  .section-body {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-body {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-body {
+    font-size: 1.6rem;
+  }
+}
+
+.website_signature {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.4;
+  font-family: Ephesis;
+  text-align: right;
+}
+
+@media (min-width: 320px) {
+  .website_signature {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .website_signature {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .website_signature {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 320px) {
+  .j-section-header {
+    padding: 1rem 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .j-section-header {
+    padding: 3rem 2rem;
+  }
+}
+
+.j-header {
+  padding-bottom: 3.12rem;
+  font-size: 2.62rem;
+  font-weight: 800;
+  line-height: 1.14;
+  font-family: Epilogue-bold;
+  text-transform: uppercase;
+  color: #391400;
+}
+
+.j-para {
+  font-size: 1.62rem;
+  font-weight: 400;
+  line-height: 1;
+  font-family: Epilogue;
+  color: #391400;
+}
+
+.j-section-body {
+  padding-top: 2rem;
+}
+
+.j-card {
+  gap: 2rem;
+}
+
+.card-1,
+.card-3 {
+  background-color: #f6f1db;
+  border-radius: 0.62rem;
+  width: 25rem;
+  height: auto;
+  padding: 1.5rem 2rem;
+}
+
+@media (min-width: 320px) {
+  .card-1,
+  .card-3 {
+    width: 18rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-1,
+  .card-3 {
+    width: 45rem;
+    padding: 2rem 1.5rem;
+  }
+}
+
+.card-2 {
+  background-color: #eee;
+  border-radius: 0.62rem;
+  width: 25rem;
+  height: auto;
+  padding: 1.5rem 2rem;
+}
+
+@media (min-width: 320px) {
+  .card-2 {
+    width: 18rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-2 {
+    width: 45rem;
+    padding: 2rem 1.5rem;
+  }
+}
+
+.card-wrapper {
+  overflow: hidden;
+  border-radius: 0.62rem;
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+@media (min-width: 320px) {
+  .card-img {
+    height: 10rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-img {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-img {
+    height: 10rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card-img {
+    height: 15rem;
+  }
+}
+
+.card-wrapper:hover .card-img {
+  transform: scale(1.1);
+}
+
+.card-content {
+  padding-top: 2rem;
+}
+
+.card-content h4 {
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Epilogue-bold;
+  color: #391400;
+}
+
+.card-content p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Epilogue;
+  color: #391400;
+  padding-bottom: 2rem;
+}
+
+.card-action a {
+  margin: 0rem;
+  padding: 0.5rem 1rem;
+  color: #cfb53b;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Epilogue;
+}
+
+.card-action a:hover {
+  color: #cfb53b;
+}
+
+.signup {
+  margin-top: 3rem;
+  background-color: #eee;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 320px) {
+  .signup {
+    height: 30rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .signup {
+    height: 23rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .signup {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .signup {
+    height: 6rem;
+  }
+}
+
+.signup svg {
+  margin: 1rem;
+}
+
+.signup p {
+  color: #391400;
+  margin: 0rem;
+  font-family: Epilogue;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 320px) {
+  .signup p {
+    padding: 1rem 1.5rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .signup p {
+    padding: 1rem 1.5rem;
+    font-size: 1.7rem;
+  }
+}
+
+.signup-btn {
+  margin: 0rem 2rem;
+  padding: 0.9375rem 1.25rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.625rem;
+  font-weight: 800;
+  background-color: #cfb53b;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.signup-btn:hover {
+  color: #fff;
+}
