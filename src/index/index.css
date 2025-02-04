@@ -587,6 +587,13 @@ input {
   }
 }
 
+@media (min-width: 992px) {
+  input {
+    width: 20vw;
+    height: 4rem;
+  }
+}
+
 .news-btn {
   width: 20vw;
   height: 4vw;
@@ -614,6 +621,34 @@ input {
   }
 }
 
+@media (min-width: 992px) {
+  .news-btn {
+    width: 20vw;
+    height: 4rem;
+  }
+}
+
 .news-btn:hover {
   box-shadow: 0 0.625rem 20px rgba(0, 0, 0, 0.3);
+}
+
+.main-link {
+  color: #ef6d58;
+  text-transform: uppercase;
+  font-size: 1.56rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.link a {
+  text-decoration: none;
+  line-height: 2.5;
+  font-size: 1.25rem;
+}
+
+.social-icons {
+  color: #ef6d58;
+  gap: 1.25rem;
 }
