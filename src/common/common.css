@@ -34,3 +34,8 @@
 .nav-item:hover a{
     color: #fff;
 }
+
+.line {
+    margin: 2rem 2rem;
+    border: 0.5px solid rgba(255, 100, 100, 0.3);
+}
