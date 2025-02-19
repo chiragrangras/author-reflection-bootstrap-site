@@ -246,7 +246,7 @@
 
 @media (min-width: 768px) {
   .giveup-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.5rem;
   }
 }
@@ -309,6 +309,142 @@
   .text {
     font-size: 1.5rem;
   }
+}
+
+.exp-header {
+  margin: 5rem 2rem 2rem 2rem;
+}
+
+.exp-heading{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: rgb(57, 20, 0);
+}
+
+@media(min-width:320px){
+  .exp-heading{
+    font-size: 3rem;
+  }
+}
+
+.exp-para{
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  color: rgb(57, 20, 0);
+}
+
+@media(min-width:320px){
+  .exp-para{
+    font-size: 1.5rem;
+  }
+}
+
+.exp-body{
+  position: relative;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.shadow{
+  width: 68rem;
+  height: 42rem;
+  background-color: #f6f1db;
+  border-radius: 1.5rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.inner{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.banner-container{
+  margin: 0;
+  width: 66rem;
+  height: 41rem;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  position: relative;
+}
+
+.banner-img{
+  height: 100%;
+  width: auto;
+  position: absolute;
+  right: 0;
+}
+
+.banner-content{
+  position: absolute;
+  z-index: 1;
+}
+
+.content-head-img{
+  width: 25rem;
+  height: 20rem;
+  position: relative;
+}
+
+.content-img{
+  width: 19.25rem;
+  height: 16.44rem;
+  position: absolute;
+  top: 4rem;
+  left: 6rem;
+}
+
+.content-body{
+  color: #fff;
+  margin: 4rem 6rem;
+  font-size: 1.5rem;
+}
+
+.content-body a{
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  position: relative;
+  text-decoration: none;
+}
+
+.content-body a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease-out;
+}
+
+
+.content-body a:hover {
+  color: #fff;
+}
+
+.content-body a:hover::after {
+  width: 100%;
+}
+
+.content-action{
+  margin: 2rem 6rem;
+  padding: 1rem;
+  background-color: #e6c42f;
+  color: #fff;
+  border: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.content-action:hover{
+  background-color: #ef6d58;
+  box-shadow: 10px 10px 5px 3px rgba(0, 0, 0, .2);
 }
 
 .newsletter-heading h1 {
