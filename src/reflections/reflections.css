@@ -315,37 +315,37 @@
   margin: 5rem 2rem 5rem 2rem;
 }
 
-.exp-heading{
-  font-size: 3.5rem;
+.exp-heading {
+  font-size: 3rem;
   font-weight: 700;
   color: rgb(57, 20, 0);
 }
 
-@media(min-width:320px){
-  .exp-heading{
-    font-size: 3rem;
-  }
-}
-
-.exp-para{
+.exp-para {
   margin-top: 3rem;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: rgb(57, 20, 0);
 }
 
-@media(min-width:320px){
-  .exp-para{
-    font-size: 1.5rem;
+@media (min-width: 320px) {
+  .exp-body {
+    display: none;
   }
 }
 
-.exp-body{
+@media (min-width: 768px) {
+  .exp-body {
+    display: block;
+  }
+}
+
+.exp-body {
   position: relative;
   max-width: 70rem;
   margin: 0 auto;
 }
 
-.shadow{
+.shadow {
   width: 68rem;
   height: 42rem;
   background-color: #f6f1db;
@@ -355,12 +355,12 @@
   left: 1.5rem;
 }
 
-.inner{
+.inner {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.banner-container{
+.banner-container {
   margin: 0;
   width: 66rem;
   height: 41rem;
@@ -369,25 +369,25 @@
   position: relative;
 }
 
-.banner-img{
+.banner-img {
   height: 100%;
   width: auto;
   position: absolute;
   right: 0;
 }
 
-.banner-content{
+.banner-content {
   position: absolute;
   z-index: 1;
 }
 
-.content-head-img{
+.content-head-img {
   width: 25rem;
   height: 20rem;
   position: relative;
 }
 
-.content-img{
+.content-img {
   width: 19.25rem;
   height: 16.44rem;
   position: absolute;
@@ -395,13 +395,13 @@
   left: 6rem;
 }
 
-.content-body{
+.content-body {
   color: #fff;
   margin: 4rem 6rem;
   font-size: 1.5rem;
 }
 
-.content-body a{
+.content-body a {
   color: #fff;
   font-size: 1.5rem;
   text-decoration: none;
@@ -420,7 +420,6 @@
   transition: width 0.3s ease-out;
 }
 
-
 .content-body a:hover {
   color: #fff;
 }
@@ -429,7 +428,7 @@
   width: 100%;
 }
 
-.content-action{
+.content-action {
   margin: 2rem 6rem;
   padding: 1rem;
   background-color: #e6c42f;
@@ -442,9 +441,9 @@
   text-transform: uppercase;
 }
 
-.content-action:hover{
+.content-action:hover {
   background-color: #ef6d58;
-  box-shadow: 10px 10px 5px 3px rgba(0, 0, 0, .2);
+  box-shadow: 10px 10px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
 .newsletter-heading h1 {
@@ -560,4 +559,81 @@ input {
 .social-icons {
   color: #ef6d58;
   gap: 1.25rem;
+}
+
+.upside {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.upside-img{
+  width: 20.875rem;
+}
+
+.icon {
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.icon svg {
+  color: #391400;
+}
+
+.avatar-heading h3 {
+  font-family: Epilogue-bold;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #391400;
+}
+
+.avatar-heading p {
+  font-family: Epilogue;
+  font-size: 1.3rem;
+  color: #391400;
+}
+
+.avatar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.avatar-para p {
+  margin: 0rem;
+  font-family: Epilogue;
+  font-size: 1.3rem;
+  color: #391400;
+}
+
+.avatar-action{
+  margin: 2rem 4rem;
+  padding: 1rem;
+  background-color: #e6c42f;
+  border: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.avatar-action:hover{
+  box-shadow: 0 0.5rem 1rem rgba(56, 20, 0,0.25);
+}
+
+.avatar-btn{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.avatar-btn:hover{
+  color: #fff;
 }
