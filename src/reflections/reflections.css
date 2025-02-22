@@ -569,8 +569,17 @@ input {
   gap: 5rem;
 }
 
-.upside-img{
-  width: 20.875rem;
+@media(min-width:320px){
+  .upside-img{
+    width: 17rem;
+  }
+}
+
+@media(min-width:768px){
+  .upside-img{
+    margin-left: 4rem;
+    width: 21rem;
+  } 
 }
 
 .icon {
@@ -582,24 +591,58 @@ input {
   gap: 3rem;
 }
 
+@media(min-width:320px){
+  .icon{
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+@media(min-width:768px){
+  .icon{
+    display: flex;
+    gap: 3rem;
+  }
+}
+
 .icon svg {
   color: #391400;
 }
 
 .avatar-heading h3 {
   font-family: Epilogue-bold;
-  font-size: 3.5rem;
   font-weight: 800;
   color: #391400;
 }
 
+@media(min-width:320px){
+  .avatar-heading h3{
+    text-align: center;
+    font-size: 3.7rem;
+  }
+}
+
+@media(min-width:768px){
+  .avatar-heading h3{
+    text-align: center;
+    font-size: 4rem;
+  }
+}
+
 .avatar-heading p {
   font-family: Epilogue;
-  font-size: 1.3rem;
   color: #391400;
 }
 
+@media(min-width:320px){
+  .avatar-heading p{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
 .avatar-wrapper {
+  margin-left: 1rem;
   display: flex;
   align-items: center;
   gap: 0.9rem;
@@ -612,28 +655,43 @@ input {
   color: #391400;
 }
 
-.avatar-action{
-  margin: 2rem 4rem;
+.action{
+  margin-top: 2rem;
   padding: 1rem;
   background-color: #e6c42f;
   border: none;
   text-align: center;
-  font-size: 1.5rem;
   font-weight: 600;
   border-radius: 10px;
   text-transform: uppercase;
 }
 
-.avatar-action:hover{
+@media(min-width:320px){
+  .action{
+    margin: 2rem;
+    width: 15rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media(min-width:768px){
+  .action{
+    width: 35rem;
+    font-size: 2rem;
+  }
+}
+
+
+.action:hover{
   box-shadow: 0 0.5rem 1rem rgba(56, 20, 0,0.25);
 }
 
-.avatar-btn{
+.avatar-link{
   text-align: center;
   color: #fff;
   text-decoration: none;
 }
 
-.avatar-btn:hover{
+.avatar-link:hover{
   color: #fff;
 }
