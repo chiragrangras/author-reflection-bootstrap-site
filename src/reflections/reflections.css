@@ -562,11 +562,18 @@ input {
 }
 
 .upside {
-  margin-top: 7rem;
+  margin: 10rem 0rem 2rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 3rem;
+}
+
+@media(min-width:768px){
+  .upside{
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
 }
 
 @media(min-width:320px){
@@ -624,7 +631,8 @@ input {
 
 @media(min-width:768px){
   .avatar-heading h3{
-    text-align: center;
+    margin-top: 2rem;
+
     font-size: 4rem;
   }
 }
@@ -676,11 +684,10 @@ input {
 
 @media(min-width:768px){
   .action{
-    width: 35rem;
-    font-size: 2rem;
+    width: 25rem;
+    font-size: 1.25rem;
   }
 }
-
 
 .action:hover{
   box-shadow: 0 0.5rem 1rem rgba(56, 20, 0,0.25);
