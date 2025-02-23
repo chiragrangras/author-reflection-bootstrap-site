@@ -575,7 +575,7 @@ input {
 
 @media (min-width: 320px) {
   input {
-    width: 40vw;
+    width: 80vw;
     height: 3rem;
   }
 }
@@ -609,7 +609,7 @@ input {
 
 @media (min-width: 320px) {
   .news-btn {
-    width: 40vw;
+    width: 80vw;
     height: 3rem;
   }
 }
