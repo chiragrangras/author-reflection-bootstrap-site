@@ -13,6 +13,93 @@
   src: url(../common/font/Ephesis-Regular.ttf);
 }
 
+.bg-img{
+  background-image: url(../common/img/research-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 36rem;
+}
+
+.research-header h2{
+  margin-top: 12rem;
+  font-family: Epilogue-bold;
+  font-weight: 800;
+  color: #fff;
+}
+
+@media(min-width:320px){
+  .research-header h2{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
+
+@media(min-width:768px){
+  .research-header h2{
+    text-align: center;
+    font-size: 5rem;
+  }
+}
+
+.research-header p{
+  font-family: Epilogue;
+  color: #fff;
+}
+
+@media(min-width:320px){
+  .research-header p{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+@media(min-width:768px){
+  .research-header p{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.practices-heading {
+  color: #391400;
+  font-family: Epilogue-bold;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+@media (min-width: 320px){
+  .practices-heading{
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px){
+  .practices-heading{
+    font-size: 2.5rem;
+  }
+}
+
+.practices-para {
+  color: #391400;
+  font-family: Epilogue;
+}
+
+@media(min-width:320px){
+  .practices-para {
+    font-size: 1.25rem;
+  }
+}
+
+@media(min-width:768px){
+  .practices-para {
+    font-size: 1.30rem;
+  }
+}
+
+
 .newsletter-heading h1 {
   color: rgb(57, 20, 0);
   font-size: 3.12rem;
@@ -50,7 +137,7 @@ input {
 
 @media (min-width: 320px) {
   input {
-    width: 40vw;
+    width: 70vw;
     height: 3rem;
   }
 }
@@ -84,7 +171,7 @@ input {
 
 @media (min-width: 320px) {
   .news-btn {
-    width: 40vw;
+    width: 70vw;
     height: 3rem;
   }
 }
