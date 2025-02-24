@@ -64,7 +64,6 @@
     padding: 1rem 5rem;
   }
 }
-
 .card-inner {
   background-color: #f6f1db;
   border-radius: 20px;
@@ -81,6 +80,7 @@
   .card-inner {
     padding: 5rem 4rem;
     flex-direction: column-reverse;
+
   }
 }
 
@@ -371,7 +371,7 @@
 
 .banner-img {
   height: 100%;
-  width: auto;
+  width: 100%;
   position: absolute;
   right: 0;
 }
@@ -702,3 +702,4 @@ input {
 .avatar-link:hover{
   color: #fff;
 }
+
