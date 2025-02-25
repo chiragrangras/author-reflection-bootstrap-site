@@ -13,6 +13,96 @@
   src: url(../common/font/Ephesis-Regular.ttf);
 }
 
+.bg-img{
+  background-image: url(../common/img/resources-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 36rem;
+}
+
+.resources-header h2{
+  margin-top: 15rem;
+  font-family: Epilogue-bold;
+  font-weight: 800;
+  color: #fff;
+}
+
+@media(min-width:320px){
+  .resources-header h2{
+    margin-top: 9rem;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
+
+@media(min-width:768px){
+  .resources-header h2{
+    margin-top: 13rem;
+    text-align: center;
+    font-size: 5rem;
+  }
+}
+
+.resources-header p{
+  font-family: Epilogue;
+  color: #fff;
+}
+
+@media(min-width:320px){
+  .resources-header p{
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+@media(min-width:768px){
+  .resources-header p{
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.interested-heading {
+  color: #391400;
+  font-family: Epilogue-bold;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+@media (min-width: 320px){
+  .interested-heading{
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px){
+  .interested-heading{
+    font-size: 2.5rem;
+  }
+}
+
+.interested-para {
+  color: #391400;
+  font-family: Epilogue;
+}
+
+@media(min-width:320px){
+  .interested-para {
+    font-size: 1.25rem;
+  }
+}
+
+@media(min-width:768px){
+  .interested-para {
+    font-size: 1.30rem;
+  }
+}
+
 .newsletter-heading h1 {
   color: rgb(57, 20, 0);
   font-size: 3.12rem;
